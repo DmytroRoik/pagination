@@ -1,0 +1,7 @@
+<div class="pagination">
+  <div class="pagination__values">{{min}} - {{max}} vs {{total}}</div>
+  <div class="pagination__btns">
+    <button (click)="onPrev()" [disabled]="!canPrev">Prev</button>
+    <button (click)="onNext()" [disabled]="!canNext">Next</button>
+  </div>
+</div>
